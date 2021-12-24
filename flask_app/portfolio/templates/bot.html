@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block title %}BOT_Murtaza{% endblock %}
+
+
+{% block content %}
+
+
+<div id="colorlib-blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="blog-entry animate-box col-pb-sm">
+					{% for message in get_flashed_messages() %}
+						
+						<div class=" alert alert-success alert-dismissible show" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">X</button>
+							{{ message }}
+													
+						</div>							
+					{% endfor%}
+
+					<a class="blog-img"><img src="static/images/bot_img.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+					<div class="desc">
+						<h2><span>I am BOT_Murtaza</span></h2>
+						<h2>I have been trained to answer questions related to career of Murtaza!</h2>
+						<p>I will be very happy to answer all your questions.</p>
+						
+						<p>Some of the freqently asked questions are under here. However I'll be happy to answer other questions. If somehow I am not able to understand your questions please ask it below. We will reply you shortly.</p>
+						<ul>
+							<li>What are your 5 year goals?</li>
+							<li>How many project have you worked on?</li>
+						</ul>
+		
+
+			
+				<div class="comment-area animate-box">
+					<h2 class="colorlib-heading-2">Please ask your Question</h2>
+					<form method="post" action="#">
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" class="form-control" name="first_name" placeholder="Your firstname">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" class="form-control" name="last_name" placeholder="Your lastname">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="email">Email</label> -->
+								<input type="text" id="email" class="form-control" name="emailid" placeholder="Your email address">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="subject">Subject</label> -->
+								<input type="text" id="subject" class="form-control" name="question" placeholder="Your subject of this message">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="message">Message</label> -->
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" name="message" placeholder="If you wish to eloborate more on your question"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Submit Question" class="btn btn-primary">
+						</div>
+
+					</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+{% endblock %}

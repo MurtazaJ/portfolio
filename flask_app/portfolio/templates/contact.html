@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %}Contact{% endblock %}
+{% block content %}
+
+<div id="colorlib-contact">
+	<div class="container">
+		<div class="row text-center">
+			<h2 class="bold">Contact</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+				<span>Contact</span>
+				<h2>Contact Me</h2>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="rotate">
+					<h2 class="heading">Contact</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-md-offset-0">
+				<div class="row">
+					<div class="col-md-4 animate-box">
+						<h3>My Address</h3>
+						<ul class="contact-info">
+							<li><span><i class="icon-map5"></i></span>Berlin 10627</li>
+							<li><span><i class="icon-phone4"></i></span>+49 1773420450</li>
+							<li><span><i class="icon-envelope2"></i></span><a href="mailto:murtazajits@gmail.com">murtazajits@gmail.com</a></li>	
+						</ul>
+					</div>
+				<form method="post" action="#">	
+					
+					<div class="col-md-7 col-md-push-1 animate-box">
+						{% for message in get_flashed_messages() %}						
+						<div class=" alert alert-success alert-dismissible show" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">X</button>	
+							{{ message }}													
+						</div>							
+						{% endfor %}
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea name="subject" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="email" class="form-control" placeholder="Email">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="submit" value="Send Message" class="btn btn-primary">
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

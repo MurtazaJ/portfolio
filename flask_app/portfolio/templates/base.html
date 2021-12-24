@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{% block title %}{% endblock %}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" type="static/images/ico"   href="static/images/something.ico">
+	
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="./static/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="./static/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="./static/css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="./static/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./static/css/owl.theme.default.min.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="./static/css/magnific-popup.css">
+
+	<link rel="stylesheet" href="./static/css/style.css">
+	
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+	<!-- Modernizr JS -->
+	<script src="./static/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	
+	<nav id="colorlib-main-nav" role="navigation">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+		<div class="js-fullheight colorlib-table">
+			<div class="colorlib-table-cell js-fullheight">
+				<div class="row-logo-image">					
+					<div class="item">
+						<img  src="static/images/logodes.png" alt="sorry some issues showing the image">
+					</div>			
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li><a href="home">Home</a></li>
+							<li><a href="services">Skills</a></li>
+							<li><a href="projects">Projects</a></li>
+							<li><a href="bot">BOT_Murtaza</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="contact">Contact</a></li>
+							<li><a href="write_testimony">write testimony</a></li>
+						</ul>
+					</div>
+				</div>			
+				<div class="col-md-12">
+					<h4 class="head-title" >"The value of every person is found in what he is best at."</h4>					
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div id="colorlib-page">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="colorlib-navbar-brand">
+							<a class="colorlib-logo" href="home"><span>MJ</span>
+						</div>
+						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+<div><br></div>
+<div><br></div>
+<!-- Search form -->
+
+{% block content %}{% endblock content %}
+
+
+<footer>
+		<div id="footer">
+			<div class="container">
+				<div class="row connect">
+					<div class="col=12">								
+						<h2>Contact me</h2>
+						<p>It’s going to be interesting to see how society enhances with artificial intelligence, and it will definitely be cool..</p>
+						<p><a href="contact">murtazajits@gmail.com</a></p>
+						<p class="colorlib-social-icons">
+							<a href="https://www.linkedin.com/in/murtaza-jabalpurwala" target="_blank"><i class="icon-linkedin2"></i></a>
+							<a href="https://github.com/MurtazaJ" target="_blank"><i class="icon-github"></i></a>   
+						</p>
+					</div>		
+				</div>					
+			</div>
+		</div>
+	</footer>
+	
+{% include "base2.html" %}
+		
+	<!-- jQuery -->
+	<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<!-- jQuery Easing -->
+	<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+	<!-- Bootstrap -->
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<!-- Waypoints -->
+	<script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+	<!-- Owl Carousel -->
+	<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+	<!-- Magnific Popup -->
+	<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/magnific-popup-options.js') }}"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+    
+	</body>
+</html>
+
+

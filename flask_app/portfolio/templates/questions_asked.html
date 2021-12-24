@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}Questions Asked{% endblock %}
+{% block content %}
+
+
+<div id="colorlib-blog">
+	<div class="container">
+		<div class="row">
+			<div class="container-design">
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>
+			<a class="blog-img"><img src="static/images/sep.png" class="img-responsive" alt="Oops somehow I am not getting displayed"></a>	
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				
+				<h2>Contact questions</h2>
+				<ul>
+					{% for subject in subjects %}
+					<p>
+						{{subject.date_created.date()}}  》
+						Q{{subject.id}}. 
+				   
+						{{(subject.name).capitalize()}}   
+						{{subject.email}}
+						{{subject.subject}} 						 
+					</p>
+					{% endfor %}
+				</ul>														
+					
+					
+						<h2>Questions Asked</h2>
+						<ul>
+							{% for question in questions %}
+                            <p>
+                                {{question.date_created.date()}}  》
+                                Q{{question.id}}. 
+                           
+                                {{(question.first_name).capitalize()}} :  
+                                {{question.subject}} 
+								{{question.email}}
+                                 
+							</p>
+                            {% endfor %}
+						</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

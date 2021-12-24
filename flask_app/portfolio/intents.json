@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What skills and strengths can you bring to this position?",
+        "what are your skills?",
+        "What are you good at?"
+      ],
+      "responses": [
+        "my skills are so and"
+      ]
+    },
+    {
+      "tag": "currently",
+      "patterns": [
+        "Can you tell me about your current job?",
+        "what are you stuyding now??",
+        "What do you do now?",
+        "Where are you working now?"
+      ],
+      "responses": [
+        "I am studying AI right now"
+       
+      ]
+    },
+    {
+      "tag": "previous",
+      "patterns": [
+        "What could your current company do to be more successful?",
+        "what is your company doing?",
+        "What did you do in your old job?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "disagreement",
+      "patterns": [
+        " Can you tell me about a time when you had a disagreement with a boss or colleague and how you handled the situation?",
+        "one incident which where you handled a situation in your old job!"
+        
+      ],
+      "responses": [
+        "This is one of the best questions to ask an interviewee because you’ll get a sense of their conflict resolution abilities. What tone does the person use when talking about the other people involved? Were they able to handle the situation described appropriately? Did they find common ground? Emotional intelligence is keenly needed in almost every job."
+      ]
+    },
+    {
+      "tag": "Teamplayer",
+      "patterns": [
+        "Do you work best alone or on a team?",
+        "Are you a team player or you prefer work alone!"
+        
+      ],
+      "responses": [
+        "What kind of work will the candidate be performing if they’re selected for the position? This question helps determine if they’re suited to the types of assignments they’ll receive. Regardless if they'll work remotely or in the office, someone who enjoys solitary work and long stretches of uninterrupted time may not thrive in a position that requires collaboration or multitasking."]
+    },
+    {
+      "tag":"yourself",
+      "patterns": [
+        "Tell me about yourself?",
+        "Tell me about Murtaza?",
+        "describe yourself?", 
+        "describe personality of Murtaza?", 
+        "Highlight your personality to break the ice?"
+      ],
+      "responses": [
+        "Since 2011 when I started working for a firm owned by my family in business development, I always believed ideas to create intelligent, self automated processes could improvize profit, reduce the work and make live easy for myself and the employees. The 40 year old legacy business had a highly beurocratic approch to which I implemented digitalisation reducing work by 60% and profit by 15%. So during this process I understood the importance tech and data that can bring to the business. This is when I decided to learn data Analytics. I learnt Tableau and processed important information gathered from the business and focused 3 years on improvising sales and profit. This acheivement allowed me to monitor business and data remotely and continuosly enhance the features. In my last job as a Business Developmnet manager, I did the same and increased the sales from region to the top in the company icreasing it by 15%. With this acheivement and confidence inside me, I enrolled myself for a course of Data scientist. The last year has been really aspiring for allowing me to reach my potential as a datascientist. My strength is, understanding the busines and kind of data required for the result expected. I am enthusiast and a team player believeing in 'Do the impossible and do it the best.'"
+
+
+
+      ]
+    }
+
+  ]
+}
