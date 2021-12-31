@@ -22,7 +22,8 @@ body {
     overflow: hidden;
     position: fixed;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+ }
 
 #colorlib-wrapper {
   height: 100%;
@@ -898,7 +899,9 @@ header {
       -o-transform: scale(1.1);
       transform: scale(1.1); }
   .article .desc {
-    position: relative; }
+    text-align: justify;
+    position: relative;
+     }
     .article .desc .meta {
       position: absolute;
       top: -80px;

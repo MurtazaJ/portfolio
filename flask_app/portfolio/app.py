@@ -25,6 +25,10 @@ def create_app(config_file='settings.py'):
     @app.route('/')
     def home():
         return render_template('index.html')
+
+    @app.route('/blog')
+    def blog():
+        return render_template('blog.html')
     
     @app.route('/download')
     def download_file():
