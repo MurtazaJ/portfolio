@@ -48,7 +48,8 @@ a {
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Karla", Arial, sans-serif; }
+  font-family: "Karla", Arial, sans-serif;
+  text-align: justify }
 
 ul, ol {
   display: block;
@@ -392,7 +393,8 @@ header {
       font-family: "Playfair Display", Georgia, serif; }
   .about-desc .desc {
     padding-left: 6em;
-    position: relative; }
+    position: relative;
+   }
   .about-desc .rotate {
     position: absolute;
     top: 7px;
@@ -710,13 +712,13 @@ header {
       margin-left: -1em; }
 
 .work-entry {
-  display: block;
+  display: flex;
   margin-bottom: 5em;
   width: 100%;
   float: left; }
   .work-entry .work-img {
-    width: 100%;
-    height: 700px;
+    width: 400px;
+    height: 350px;
     margin-bottom: 40px;
     display: table;
     text-align: center;
@@ -724,7 +726,7 @@ header {
     .work-entry .work-img .display-t {
       display: table-cell;
       vertical-align: middle;
-      height: 700px;
+      height: 350px;
       position: relative;
       z-index: 0; }
       .work-entry .work-img .display-t:after {
@@ -1341,6 +1343,7 @@ input[type="text"] {
 
 .arrow {
   position: absolute;
+  margin-top: 150px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
@@ -1354,14 +1357,18 @@ input[type="text"] {
   border-right: 5px solid #CA82F8;
   transform: rotate(45deg);
   margin: -10px;
+  
   animation: scroll 2s infinite;  
 }
 
 .arrow span:nth-child(2){
+  
   animation-delay: -.2s;
+  
 }
 
 .arrow span:nth-child(3){
+  margin-top: 200px;
   animation-delay: -.4s;
 }
 .arrow span:nth-child(4){

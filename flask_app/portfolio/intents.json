@@ -95,15 +95,50 @@
         "Tell me about Murtaza?",
         "describe yourself?", 
         "describe personality of Murtaza?", 
-        "Highlight your personality to break the ice?"
+        "Highlight your personality to break the ice?",
+        "Who are you?"
       ],
       "responses": [
         "Since 2011 when I started working for a firm owned by my family in business development, I always believed ideas to create intelligent, self automated processes could improvize profit, reduce the work and make live easy for myself and the employees. The 40 year old legacy business had a highly beurocratic approch to which I implemented digitalisation reducing work by 60% and profit by 15%. So during this process I understood the importance tech and data that can bring to the business. This is when I decided to learn data Analytics. I learnt Tableau and processed important information gathered from the business and focused 3 years on improvising sales and profit. This acheivement allowed me to monitor business and data remotely and continuosly enhance the features. In my last job as a Business Developmnet manager, I did the same and increased the sales from region to the top in the company icreasing it by 15%. With this acheivement and confidence inside me, I enrolled myself for a course of Data scientist. The last year has been really aspiring for allowing me to reach my potential as a datascientist. My strength is, understanding the busines and kind of data required for the result expected. I am enthusiast and a team player believeing in 'Do the impossible and do it the best.'"
-
-
-
+      ]
+    },
+    {
+      "tag":"future",
+      "patterns": [
+        "Tell me about your 5 year plans?",
+        "Where do you see yourself in 5 years?",
+        "What ar your future plans?", 
+        "What are your goals and objectives?", 
+        "How do you want to craft next your 5 year?",
+        "Whats your 5 year career goal?"
+      ],
+      "responses": [
+        "In 5 years I want to see my self working in your company either in the same role or or having gained advancement to a senior postion after having competantly upgraded my skills. '\n' In five years I wish to participate in numerous team projects and help the business move forward significantly. \\n I would also be willing to help train up newer members of the organisations when they join by sharing my experience and expertise if you would like me to do so. Finally in five years time I would want to be seen as a trusted reliable and productive member of your organisation who can be relied upon to deliver results both on time and to the requested standard."
+      ]
+    },
+    {
+      "tag":"strengths",
+      "patterns": [
+        "What are your strengths?",
+        "Tell me about your strengths?",
+        "What is your biggest strength?", 
+        "broadcast me your greatest strength?"
+      ],
+      "responses": [
+        "my strengths include the fact that I am highly reliable and disciplined. I am loyal and trustworthy employee, and I will come to your organization being resourceful adding value through my knowledge and expereince. \\n I am disciplined because I focus intently on the tasks I need to complee and I plan to make sure they are always done to a high standard. \\n Being colloborative and innovative and a positive role model, I will take great pride representing your business. I  am a fast learner and wish to expertise my skills and add value to that company making sure that you have a good return on your investment."
+      ]
+    },
+    {
+      "tag":"Weakness",
+      "patterns": [
+        "What are your weakness?",
+        "Tell me about your weaknesses?",
+        "What is your biggest weakness?", 
+        "broadcast me your greatest weakness?"
+      ],
+      "responses": [
+        "In situations with a deadline, I tend to want things to be done quickly and efficiently and in these situations I have tended to update myself on the status of my co-workers duties. This has made me appear stressed and impatient in front of others. \\n As a result, I am learning to be cognizant of this fact and no longer trying to constantly ask of updates of update my status with the co-workers. I am also reading a book 'The 7 habits of highly effective people' by Covey. "
       ]
     }
-
   ]
 }

@@ -95,7 +95,7 @@ def create_app(config_file='settings.py'):
         else:
             return render_template('bot.html')
     
-    @app.route('/write testimony', methods=['POST', 'GET'])
+    @app.route('/write_testimony', methods=['POST', 'GET'])
     def write_testimony():
         if request.method == "POST":
             first_name = request.form['name']
