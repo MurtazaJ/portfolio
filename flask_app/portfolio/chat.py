@@ -2,6 +2,7 @@ import random
 import json
 import os
 import torch
+import time
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -28,6 +29,7 @@ with open('portfolio/intents.json', 'r') as json_data:
     bot_name = "BOT_Murtaza"
 
 def get_response(msg):
+    print("start talking with me")
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -43,6 +45,7 @@ def get_response(msg):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
+                
                 return random.choice(intent['responses'])
     
     return "I do not understand..."

@@ -4,6 +4,7 @@ from models import Question, Testimony, Contact
 from commands import create_tables
 from chat import get_response
 from error_handlers import errors
+import time
 
 def create_app(config_file='settings.py'):
     app = Flask(__name__)
@@ -39,6 +40,7 @@ def create_app(config_file='settings.py'):
     def predict():
         text = request.get_json().get("message")
         response = get_response(text)
+        
         message = {"answer": response}
         return jsonify(message)
 

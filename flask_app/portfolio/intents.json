@@ -125,11 +125,11 @@
         "broadcast me your greatest strength?"
       ],
       "responses": [
-        "my strengths include the fact that I am highly reliable and disciplined. I am loyal and trustworthy employee, and I will come to your organization being resourceful adding value through my knowledge and expereince. \\n I am disciplined because I focus intently on the tasks I need to complee and I plan to make sure they are always done to a high standard. \\n Being colloborative and innovative and a positive role model, I will take great pride representing your business. I  am a fast learner and wish to expertise my skills and add value to that company making sure that you have a good return on your investment."
+        "my strengths include the fact that I am highly reliable and disciplined. I am loyal and trustworthy employee, and I will come to your organization being resourceful adding value through my knowledge and expereince. I am disciplined because I focus intently on the tasks I need to complete and I plan to make sure they are always done to a high standard. Being colloborative and innovative and a positive role model, I will take great pride representing your business. I  am a fast learner and wish to expertise my skills and add value to that company making sure that you have a good return on your investment."
       ]
     },
     {
-      "tag":"Weakness",
+      "tag":"weakness",
       "patterns": [
         "What are your weakness?",
         "Tell me about your weaknesses?",
@@ -137,8 +137,19 @@
         "broadcast me your greatest weakness?"
       ],
       "responses": [
-        "In situations with a deadline, I tend to want things to be done quickly and efficiently and in these situations I have tended to update myself on the status of my co-workers duties. This has made me appear stressed and impatient in front of others. \\n As a result, I am learning to be cognizant of this fact and no longer trying to constantly ask of updates of update my status with the co-workers. I am also reading a book 'The 7 habits of highly effective people' by Covey. "
+        "In situations with a deadline, I tend to want things to be done quickly and efficiently and in these situations I have tended to update myself on the status of my co-workers duties. This has made me appear stressed and impatient in front of others. As a result, I am learning to be cognizant of this fact and no longer trying to constantly ask of updates of update my status with the co-workers. I am also reading a book 'The 7 habits of highly effective people' by Covey. "
       ]
+    },
+    {
+      "tag":"hire",
+      "patterns": [
+        "What should make us consider you?",
+        "Why should we hire you?",
+        "why should we choose you?", 
+        "what would make us finalise you?"
+      ],
+      "responses": [
+        "you should hire me for 4 reasons. Reason number one is that I am new to work and I sm therefore, a blank canvas. You get to train me up to be the perfect employee. Because I want stay working at your company for a long time, you will see the benefits of this in my work ethic and my high level of output. Reason number two is, because of my entreprenual mindset, I am commercially aware and will try to bring best solution based on market needs. Reason number three is because I am a very fast learner, I retain information easily which means you wont have to spend your valuable time supervising or closely monitoring me moving forward.On top of that, I am a self starter and can be left alone to complete tasks quickly. Finally reason number four is because my drive, self-motivation and determination to succeed means you will always see a postive return on your investment if you choose to hire me. In my previous role as a Business developemnt, I had increased sales of my market to the top sales amonsgst all market, acheiveing a total of 33% of sales."]
     }
   ]
 }

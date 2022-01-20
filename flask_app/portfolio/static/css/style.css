@@ -17,7 +17,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   background: #fafafa;
-  color: gray; }
+  color: gray; 
+  text-align: justify;}
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -360,6 +361,7 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1em;
+    color: #CA82F8;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -461,7 +463,7 @@ header {
   position: relative;
    }
 .services-img{
-  margin-top: 100px; 
+  margin-bottom: 100px; 
   background-size: 100% 100%
 }
 .progress-head {
@@ -678,10 +680,11 @@ header {
   -moz-flex-wrap: wrap;
   width: 100%; }
   .services-flex .one-third {
-    width: 55%;
+    width: 65%;
     padding: 3em 2em 3em 0; }
   .services-flex .one-forth {
-    width: 45%; }
+    width: 35%;
+  height:700px }
     .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
       display: inline-block; }
       @media screen and (max-width: 768px) {
@@ -1392,3 +1395,97 @@ input[type="text"] {
   align-items: flex-start;
   margin-bottom: 20px;
 }
+
+
+
+
+.chart{
+  
+  width: 800px;
+  height: 300px;
+  display: flex;
+}
+
+.numbers{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
+  display: inline-block;
+  
+}
+
+.numbers li{
+  
+  list-style: none;
+  height: 150px;
+  position: relative;
+  bottom: 145px;
+}
+
+.numbers span{
+  color: rgba(0, 0, 0, 0.8);
+  
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.bars{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 530px;
+  height: 300px;
+  box-shadow: 0 0 10px 0 #555;
+  border-radius: 5px;
+}
+
+.bars li{
+  
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  position: relative;
+}
+
+.bars span{
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+  text-align: center;
+}
+
+.bars .bar{
+  display: block;
+  background: #CA82F8;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+}
+
+.bars .bar:hover{
+  background: #55EFC4;
+  box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+  cursor: pointer;
+}
+
+.bars .bar:before{
+  color: rgba(0, 0, 0, 0.8);
+  content: attr(data-percentage) ;
+  position: relative;
+  bottom: 20px;
+}
+      
