@@ -1,1 +1,1 @@
-web: gunicorn flask_app/portfolio/app
+web: gunicorn app
