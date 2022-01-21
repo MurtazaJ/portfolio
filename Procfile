@@ -1,1 +1,1 @@
-web: gunicorn app:portfolio/app
+web: gunicorn --pythonpath portfolio app
