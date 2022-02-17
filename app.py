@@ -114,8 +114,8 @@ def create_app(config_file='settings.py'):
                 return "There was an error posting your testimony"
             
         else:
-            testimonies = Testimony.query.order_by(Testimony.id)
-            return render_template('write_testimony.html', testimonies=testimonies)
+            # testimonies = Testimony.query.order_by(Testimony.id)
+            return render_template('write_testimony.html')
 
 
     @app.route('/questions_asked')
