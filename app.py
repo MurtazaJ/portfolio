@@ -115,7 +115,7 @@ def create_app(config_file='settings.py'):
             
         else:
             testimonies = Testimony.query.order_by(Testimony.id)
-            return render_template('write_testimony.html')
+            return render_template('write_testimony.html', testimonies=testimonies)
 
 
     @app.route('/questions_asked')
