@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, request, flash, redirect,json
 from extensions import db 
 from models import Question, Testimony, Contact
 from commands import create_tables
-from chat import get_response
+
 from error_handlers import errors
 import time
 
@@ -36,13 +36,13 @@ def create_app(config_file='settings.py'):
         file_path = "download/Murtaza_CV.pdf"
         return send_file(file_path, as_attachment=True)
     
-    @app.post("/predict")
-    def predict():
-        text = request.get_json().get("message")
-        response = get_response(text)
+    # @app.post("/predict")
+    # def predict():
+    #     text = request.get_json().get("message")
+    #     response = get_response(text)
         
-        message = {"answer": response}
-        return jsonify(message)
+    #     message = {"answer": response}
+    #     return jsonify(message)
 
     @app.route('/about')
     def about():
